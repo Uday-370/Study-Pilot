@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Study Pilot</string>
+    <string name="cd_books_reading_illustration">Stick figure reading an open book</string>
+    <string name="cd_lamp_studying_illustration">Stick figure studying beneath a desk lamp</string>
+    <string name="cd_tasks_checking_illustration">Stick figure checking items on a task list</string>
+    <string name="cd_self_improvement_illustration">Stick figure climbing stairs to show self improvement</string>
+</resources>
