@@ -40,8 +40,8 @@ StudyPilot is built using modern Android development standards, following the **
 *(Replace these placeholder links with actual screenshots of your app)*
 
 | Dashboard | Focus Timer | The Vault | Achievement Card |
-| :---: | :---: | :---: | :---: |
-| <img src="link_to_dashboard_image.png" width="200"/> | <img src="link_to_timer_image.png" width="200"/> | <img src="link_to_vault_image.png" width="200"/> | <img src="link_to_share_card_image.png" width="200"/> |
+|----------|------------|-----------|------------------|
+| <img src="https://github.com/user-attachments/assets/6a1893f2-baab-40ab-af84-7187d5d72e29" width="200"/> | <img src="https://github.com/user-attachments/assets/4f9a70b3-8796-4296-91f7-a8a73fde95a6" width="200"/> | <img src="https://github.com/user-attachments/assets/8ffe5377-fdb6-4ac8-84b2-d83b893ce453" width="200"/> | <img src="https://github.com/user-attachments/assets/d3401319-190c-47fb-aa80-22cc9afebcd0" width="200"/> |
 
 ---
 
@@ -53,7 +53,8 @@ To create a viral sharing loop, I bypassed standard XML layouts and built a cust
 ### Thread-Safe Background Timers
 Standard Java timers drift or freeze when Android enters Doze mode. StudyPilot solves this by decoupling the UI from the timer. A `CoroutineScope` running on the `Dispatchers.IO` thread tracks time using `SystemClock.elapsedRealtime()`, while a `PARTIAL_WAKE_LOCK` ensures the CPU stays awake just enough to trigger the alarm at the exact right millisecond, all while updating Compose `StateFlow` variables safely.
 
----
+
+
 
 ## 🚀 Getting Started
 
